@@ -25,11 +25,17 @@
     <div class="text-center">
       <h2> {{customers.1}} {{customers.2}} &nbsp; 
 
+          <!-- ACCOUNT DETAILS button -->
+          <a href="/accountDetails/{{customers.0}}"><button type="submit" class="btn btn-primary btn-sm">Account Details</button></a>
+  
           <!-- update button -->
           <button type="button" class="btn btn-primary btn-sm" onclick="openForm()">update</button>
 
           <!-- delete button -->
           <a href="/delete/{{customers.0}}"><button type="submit" class="btn btn-danger btn-sm" >delete</button></a>
+
+          <!-- loan button -->
+          <a href="/loan/{{customers.0}}"><button type="submit" class="btn btn-danger btn-sm" >borrow loan</button></a>
 
       </h2>
     </div>
@@ -71,10 +77,15 @@
           <td>{{customers.4}}</td>
           <td><button type="button" class="btn btn-primary btn-sm" disabled>can edit</button></td>
         </tr>
+        <tr>
+          <th scope="row">Employee ID assigned</th>
+          <td>{{customers.5}}</td>
+          <td><button type="button" class="btn btn-secondary btn-sm" disabled>cannot edit!</button></td>
+        </tr>
       </tbody>
     </table>
   </div>
-  <br> <br> <br>
+  <br>
   <!-- form for update -->
   <div class="mx-auto" style="width: 400px; display: none;" id="update_form">
     
