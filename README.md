@@ -1,8 +1,8 @@
 # Banking System Web App 
 
-## Website flow
-
 <br>
+
+## Website flow
 
 - The landing page of our web app is the customer sign-up page through which the customer will be inserted in the `CUSTOMER` table of our `banking_system` database. He/She will need to enter his/her personal details such as first name, last name, street, and city. The `customer_id` will be assigned randomly and each customer will be assigned an employee.
 
@@ -26,11 +26,7 @@
 
 ## Operations
 
-<br>
-
 #### **INSERT**
----
-<br>
 
 #### WebApp asks the user to register/signup, as displayed in the below window
 
