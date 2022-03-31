@@ -18,7 +18,7 @@
 
 - On clicking the account details button, we get all the information regarding the customer.
 
-- On clicking the borrow loan, a customer can borrow a loan. Once we took the loan, an entry will `loan_number` and the amount will be inserted into the `LOAN` table and we will get redirected to the profile page.
+- On clicking the borrow loan, a customer can borrow a loan. Once we took the loan, an entry will `loan_number` and the amount will be inserted into the `LOAN` table and we will get redirected to the profile page. 
 
 <br>
 
